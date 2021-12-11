@@ -34,7 +34,6 @@ var star = [star1,star2,star3,star4,star5]
         }
     }
 }
-
 function leaveStar(element)
 {
     if(star.includes(element)) //se TRUE
@@ -49,6 +48,13 @@ function leaveStar(element)
     }
 }*/
 
+/*function notaAtribuida(num)
+{
+    var buttonConfirm = document.getElementById('tm-button')
+        
+    alert('A nota atribuída foi de ' + num + ' estrelas')
+}*/
+
 function clickStar(element)
 {
     if(star.includes(element)) //se TRUE
@@ -60,8 +66,15 @@ function clickStar(element)
         {
             star[i].src='images/estrela_cheia.svg'
         }
-        buttonConfirm = document.getElementById('tm-button')
+        var buttonConfirm = document.getElementById('tm-button')
         buttonConfirm.style.background = '#2CC6D0'
+        var nota = N + 1
+        //notaAtribuida(nota)
+        //alert('A nota atribuída foi de ' + nota + ' estrelas')
+        buttonConfirm.onclick = function ()
+        {
+            alert('A nota atribuída foi de ' + nota + ' estrelas')
+        }
     }
     else
     {   //se FALSE
@@ -69,20 +82,7 @@ function clickStar(element)
     }
 }   
 
-function notaAtribuida()
-{
-    var nota=0
-    for(i=0;i<5;i++)
-    {
-        if(star[i].src == 'images/estrela_cheia.svg')
-        {
-            nota++
-        }
-        else{break}
-    }
-    //alert('A nota atribuída foi de `${nota}` estrelas')
-    alert(nota)
-}
+
 
 
    
