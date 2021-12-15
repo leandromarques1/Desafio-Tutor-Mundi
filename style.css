@@ -93,7 +93,7 @@ h1
 {
 	.container
 	{
-		background-color: green; 
+		background-color: ; 
 		text-align: center;
 		/*margin-top: 10vw;
 		margin-bottom: 10vw;*/
@@ -113,7 +113,7 @@ h1
 		flex-direction: row;
 		align-items: center;
 		margin-left: %;
-		background-color: pink;
+		background-color: ;
 	}
 
 	#tm-button 
