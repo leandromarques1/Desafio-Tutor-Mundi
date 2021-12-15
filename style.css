@@ -93,10 +93,7 @@ h1
 {
 	.container
 	{
-		background-color: ; 
 		text-align: center;
-		/*margin-top: 10vw;
-		margin-bottom: 10vw;*/
 		margin-right: 5vw;
 		margin-left: 5vw;
 	}
@@ -112,19 +109,15 @@ h1
 		display: flex;
 		flex-direction: row;
 		align-items: center;
-		margin-left: %;
-		background-color: ;
 	}
 
 	#tm-button 
 	{
-		/*visibility: hidden;*/
 		width: 50%;
 	}
 	
 	#tm-secondary-button 
 	{
-		/*visibility: hidden;*/
 		width: 35%;
 	}
 }
