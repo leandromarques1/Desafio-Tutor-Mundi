@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Icon | Grommet</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+    <!-- <link rel="stylesheet" type="text/javascript" href="./script.js"> -->
+   
+</head>
+
+<body>
+    <div class="container" >
+        <img src="images/livro.png">
+        <h1>
+            Como foi a ajuda <br> do tutor?
+        </h1>
+        
+        <div id="stars">
+            <img id="estrela1" src="images/estrela_vazia.svg" onclick="clickStar(this)" onmouseover="overStar(this)" onmouseleave="leaveStar(this)">
+            <img id="estrela2" src="images/estrela_vazia.svg" onclick="clickStar(this)" onmouseover="overStar(this)" onmouseleave="leaveStar(this)">
+            <img id="estrela3" src="images/estrela_vazia.svg" onclick="clickStar(this)" onmouseover="overStar(this)" onmouseleave="leaveStar(this)">
+            <img id="estrela4" src="images/estrela_vazia.svg" onclick="clickStar(this)" onmouseover="overStar(this)" onmouseleave="leaveStar(this)">
+            <img id="estrela5" src="images/estrela_vazia.svg" onclick="clickStar(this)" onmouseover="overStar(this)" onmouseleave="leaveStar(this)">
+        </div>
+
+        <br><br>
+        <div id="buttonPlace">
+            <br>
+            <input id="tm-secondary-button" type="button" name="pular" value="Pular" >
+            <!-- <input id="tm-button" type="button" name="confirmar" value="Confirmar" onclick="notaAtribuida()"> -->
+            <!-- <input id="tm-button" type="button" name="confirmar" value="Confirmar" onclick="notaAtribuida()"> -->
+            <a id="tm-button" name="confirmar" href="#">Confirmar</a>
+            <!-- Nesse link, provavelmente será escrita uma ROTA para um script que faça a leitura das estrelas clicadas -->
+            <!-- Provavelmente, é aqui que entra o tal do EJS -->
+            <!-- O método provavelmente é o POST -->
+            <br><br>
+        </div>
+    </div>
+
+    <script src="./script.js" ></script>
+        
+
+</body>
+
+</html>
