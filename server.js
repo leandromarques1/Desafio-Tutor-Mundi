@@ -28,7 +28,7 @@ http.createServer((req, res) => {
 
 */
 
-/*
+
 http.createServer((req, res) => {
     const file = req.url === '/' ? 'index.html' : req.url
     const filePath = path.join(__dirname, 'public', file)
@@ -41,9 +41,9 @@ http.createServer((req, res) => {
         }
     )
 }).listen(5000, ()=> {console.log('Server is running..')})
-*/
 
 
+/*
 const express = require('express');  
 const app = express() 
 
@@ -61,3 +61,4 @@ app.get('/', (req, res) => {
 })
 
 app.listen(5000, ()=> {console.log('Server is running..')});
+*/
