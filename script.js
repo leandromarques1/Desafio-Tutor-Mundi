@@ -42,6 +42,7 @@ function clickStar(element)
             for(i=0; i<=N;i++)
             {
                 star[i].src='images/estrela_vazia.svg'
+                buttonConfirm.style.background = '#C8C8C8'
             }
         }
     }
